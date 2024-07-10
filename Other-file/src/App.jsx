@@ -6,7 +6,7 @@ function SignUpForm() {
     lastName: '',
     contact: '',
   });
-
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -63,5 +63,4 @@ function SignUpForm() {
     </div>
   );
 }
-
 export default SignUpForm;
