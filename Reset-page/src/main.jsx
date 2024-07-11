@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import PasswordReset from './PasswordReset';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const App = () => {
+  return (
+    <div className="App">
+      <PasswordReset />
+    </div>
+  );
+};
+
+export default App;
